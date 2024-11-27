@@ -1,0 +1,81 @@
+.userTable{
+    width: 60%;
+    background-color: white;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 50px;
+}
+.addButton{
+    text-decoration: none;
+    background-color: purple;
+     font-weight: 500;
+    color: white;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+    border: 5px;
+    padding: 10px;
+}
+
+.userTable table{
+       width:100%;
+       margin: 30px;
+       border-collapse: collapse;
+}
+
+.userTable table thead th{
+    background-color: purple;
+    color: white;
+    padding: 10px;
+}
+
+.userTable table tbody td{
+    padding: 10px;
+    text-align: center;
+}
+
+.actionButton button{
+    border: 0;
+    outline: none;
+    background:red ;
+    padding: 8px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.actionButton a{
+    border: 0;
+    background: green;
+    padding: 8px 11px;
+    margin: 0 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.actionButton button {
+    border: 0;
+    background: green;
+    padding: 8px 11px;
+    margin: 0 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .actionButton button {
+    border: 0;
+    background: red;
+    padding: 8px 11px;
+    margin: 0 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .actionButton i {
+    color: white; /* Ensure the icon is white, matching the text color */
+}
